@@ -24,7 +24,8 @@ class Homepage extends StatelessWidget {
                       subtitle:Text("\$" + snapshot.data[index]['price'].toString()),
                       onTap: () {},
                     );
-                  }),
+                  }
+                  ),
             );
           }
           
